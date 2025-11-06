@@ -88,6 +88,9 @@ function Dashboard() {
                         <Button>Productivity</Button>
                         <Button>News</Button>
                         <Button>Marketing</Button>
+                        <Link to="entertainment">
+                            <Button>Entertainment</Button>
+                        </Link>
                     </div>
                 </div>
 

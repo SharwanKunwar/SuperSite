@@ -8,6 +8,7 @@ import All from './components/categories components/All.jsx'
 import DashboardCategoriesDefaultPage from './components/categories components/DashboardCategoriesDefaultPage.jsx'
 import DeveloperTools from './components/categories components/DeveloperTools.jsx'
 import Design from './components/categories components/Design.jsx'
+import Entertainment from './components/categories components/Entertainment.jsx'
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path:"design",
         element:<Design/>
+      },
+      {
+        path:"entertainment",
+        element: <Entertainment/>
       }
 
     ]

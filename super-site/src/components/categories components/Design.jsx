@@ -7,7 +7,7 @@ import { cardInfo } from '../../data/cardInfo'
 function Design() {
   return (
     <>
-        <div className=' w-full h-full rounded-md grid grid-cols-3 gap-5 overflow-y-scroll scrollbar-hide transition-transform duration-75 scroll-smooth'>
+        <div className=' w-full h-full rounded-md grid grid-cols-3 gap-5 overflow-y-scroll scrollbar-hide transition-transform duration-75 scroll-smooth py-5'>
             {
               cardInfo
               .filter((item) => item.category === "Design")

@@ -68,7 +68,7 @@ export const cardInfo = [
     id: 5,
     img: "/spotify.png",
     title: "Spotify",
-    category: "Music",
+    category: "Entertainment",
     description: "A music streaming platform offering millions of tracks, personalized playlists, and podcasts.",
     tags: [
       { name: "Music", color: "bg-green-200 text-green-800" },
