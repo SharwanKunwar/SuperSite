@@ -1,111 +1,132 @@
-
 export const cardInfo = [
-    {
-        id:0,
-        img:"/super-dad.png",
-        title: "Fibma",
-        description: "a concise summary of the site's purpose and value, hghtlight key feature",
-        tags:[
-            { name: "SaaS", color: "bg-blue-200 text-blue-800" },
-            { name: "Analytics", color: "bg-green-200 text-green-800" },
-            { name: "Data Visualization", color: "bg-orange-200 text-orange-800" },
-        ],
-        siteLink: "https://example.com"
-    },
-    {
-        id:1,
-        img:"/super-dad.png",
-        title: "Youtube",
-        description: "a concise summary of the site's purpose and value, hghtlight key feature",
-        tags:[
-            { name: "SaaS", color: "bg-blue-200 text-blue-800" },
-            { name: "Analytics", color: "bg-green-200 text-green-800" },
-            { name: "Data Visualization", color: "bg-orange-200 text-orange-800" },
-        ],
-        siteLink: "https://example.com"
-    },
-    {
-        id:2,
-        img:"/super-dad.png",
-        title: "Youtube",
-        description: "a concise summary of the site's purpose and value, hghtlight key feature",
-        tags:[
-            { name: "SaaS", color: "bg-blue-200 text-blue-800" },
-            { name: "Analytics", color: "bg-green-200 text-green-800" },
-            { name: "Data Visualization", color: "bg-orange-200 text-orange-800" },
-        ],
-        siteLink: "https://example.com"
-    },
-    {
-        id:3,
-        img:"/super-dad.png",
-        title: "Youtube",
-        description: "a concise summary of the site's purpose and value, hghtlight key feature",
-        tags:[
-            { name: "SaaS", color: "bg-blue-200 text-blue-800" },
-            { name: "Analytics", color: "bg-green-200 text-green-800" },
-            { name: "Data Visualization", color: "bg-orange-200 text-orange-800" },
-        ],
-        siteLink: "https://example.com"
-    },
-    {
-        id:4,
-        img:"/super-dad.png",
-        title: "Youtube",
-        description: "a concise summary of the site's purpose and value, hghtlight key feature",
-        tags:[
-            { name: "SaaS", color: "bg-blue-200 text-blue-800" },
-            { name: "Analytics", color: "bg-green-200 text-green-800" },
-            { name: "Data Visualization", color: "bg-orange-200 text-orange-800" },
-        ],
-        siteLink: "https://example.com"
-    },
-    {
-        id:5,
-        img:"/super-dad.png",
-        title: "Youtube",
-        description: "a concise summary of the site's purpose and value, hghtlight key feature",
-        tags:[
-            { name: "SaaS", color: "bg-blue-200 text-blue-800" },
-            { name: "Analytics", color: "bg-green-200 text-green-800" },
-            { name: "Data Visualization", color: "bg-orange-200 text-orange-800" },
-        ],
-        siteLink: "https://example.com"
-    },
-    {
-        id:6,
-        img:"/super-dad.png",
-        title: "Youtube",
-        description: "a concise summary of the site's purpose and value, hghtlight key feature",
-        tags:[
-            { name: "SaaS", color: "bg-blue-200 text-blue-800" },
-            { name: "Analytics", color: "bg-green-200 text-green-800" },
-            { name: "Data Visualization", color: "bg-orange-200 text-orange-800" },
-        ],
-        siteLink: "https://example.com"
-    },
-    {
-        id:7,
-        img:"/super-dad.png",
-        title: "Youtube",
-        description: "a concise summary of the site's purpose and value, hghtlight key feature",
-        tags:[
-            { name: "SaaS", color: "bg-blue-200 text-blue-800" },
-            { name: "Analytics", color: "bg-green-200 text-green-800" },
-            { name: "Data Visualization", color: "bg-orange-200 text-orange-800" },
-        ],
-        siteLink: "https://example.com"
-    },
-    {
-        id:8,
-        img:"/super-dad.png",
-        title: "Youtube",
-        description: "a concise summary of the site's purpose and value, hghtlight key feature",
-        tags:[
-            { name: "SaaS", color: "bg-blue-200 text-blue-800" },
-            { name: "Analytics", color: "bg-green-200 text-green-800" },
-            { name: "Data Visualization", color: "bg-orange-200 text-orange-800" },
-        ],
-        siteLink: "https://example.com"
-    },
-]
+  {
+    id: 0,
+    img: "/fibma.png",
+    title: "Fibma",
+    category: "Design",
+    description: "A creative platform for teams to design, prototype, and share digital experiences with ease and precision.",
+    tags: [
+      { name: "SaaS", color: "bg-blue-200 text-blue-800" },
+      { name: "Design Tool", color: "bg-purple-200 text-purple-800" },
+      { name: "Collaboration", color: "bg-green-200 text-green-800" },
+    ],
+    siteLink: "https://www.figma.com",
+  },
+  {
+    id: 1,
+    img: "/youtube.png",
+    title: "YouTube",
+    category: "Entertainment",
+    description: "A global platform for watching, uploading, and sharing videos with millions of creators and viewers.",
+    tags: [
+      { name: "Video Streaming", color: "bg-red-200 text-red-800" },
+      { name: "Entertainment", color: "bg-orange-200 text-orange-800" },
+      { name: "Community", color: "bg-blue-200 text-blue-800" },
+    ],
+    siteLink: "https://www.youtube.com",
+  },
+  {
+    id: 2,
+    img: "/notion.png",
+    title: "Notion",
+    category: "Productivity",
+    description: "A single workspace to write, plan, and collaborate — keeping all notes, goals, and tasks neatly organized.",
+    tags: [
+      { name: "Productivity", color: "bg-green-200 text-green-800" },
+      { name: "Note-taking", color: "bg-yellow-200 text-yellow-800" },
+      { name: "Teamwork", color: "bg-blue-200 text-blue-800" },
+    ],
+    siteLink: "https://www.notion.so",
+  },
+  {
+    id: 3,
+    img: "/airbnb.png",
+    title: "Airbnb",
+    category: "Travel",
+    description: "A platform connecting travelers with hosts to book unique stays and experiences around the world.",
+    tags: [
+      { name: "Travel", color: "bg-pink-200 text-pink-800" },
+      { name: "Hospitality", color: "bg-yellow-200 text-yellow-800" },
+      { name: "Marketplace", color: "bg-blue-200 text-blue-800" },
+    ],
+    siteLink: "https://www.airbnb.com",
+  },
+  {
+    id: 4,
+    img: "/github.png",
+    title: "GitHub",
+    category: "Development",
+    description: "A platform for version control and teamwork that helps developers share, manage, and review code.",
+    tags: [
+      { name: "Developer Tool", color: "bg-gray-200 text-gray-800" },
+      { name: "Open Source", color: "bg-green-200 text-green-800" },
+      { name: "Collaboration", color: "bg-blue-200 text-blue-800" },
+    ],
+    siteLink: "https://github.com",
+  },
+  {
+    id: 5,
+    img: "/spotify.png",
+    title: "Spotify",
+    category: "Music",
+    description: "A music streaming platform offering millions of tracks, personalized playlists, and podcasts.",
+    tags: [
+      { name: "Music", color: "bg-green-200 text-green-800" },
+      { name: "Streaming", color: "bg-blue-200 text-blue-800" },
+      { name: "Personalization", color: "bg-yellow-200 text-yellow-800" },
+    ],
+    siteLink: "https://www.spotify.com",
+  },
+  {
+    id: 6,
+    img: "/dribbble.png",
+    title: "Dribbble",
+    category: "Design",
+    description: "A platform where designers showcase their creative work, get inspiration, and connect with opportunities.",
+    tags: [
+      { name: "Design", color: "bg-pink-200 text-pink-800" },
+      { name: "Portfolio", color: "bg-purple-200 text-purple-800" },
+      { name: "Community", color: "bg-blue-200 text-blue-800" },
+    ],
+    siteLink: "https://dribbble.com",
+  },
+  {
+    id: 7,
+    img: "/medium.png",
+    title: "Medium",
+    category: "Writing",
+    description: "A publishing platform where writers share stories, insights, and ideas with a global audience.",
+    tags: [
+      { name: "Blogging", color: "bg-yellow-200 text-yellow-800" },
+      { name: "Community", color: "bg-blue-200 text-blue-800" },
+      { name: "Content", color: "bg-green-200 text-green-800" },
+    ],
+    siteLink: "https://medium.com",
+  },
+  {
+    id: 8,
+    img: "/canva.png",
+    title: "Canva",
+    category: "Design",
+    description: "A graphic design tool simplifying the creation of visuals for social media, presentations, and branding.",
+    tags: [
+      { name: "Design", color: "bg-purple-200 text-purple-800" },
+      { name: "Creativity", color: "bg-pink-200 text-pink-800" },
+      { name: "Tool", color: "bg-blue-200 text-blue-800" },
+    ],
+    siteLink: "https://www.canva.com",
+  },
+  {
+    id: 9,
+    img: "/trello.png",
+    title: "Trello",
+    category: "Project Management",
+    description: "A visual project management tool using boards, lists, and cards to organize and prioritize tasks.",
+    tags: [
+      { name: "Project Management", color: "bg-orange-200 text-orange-800" },
+      { name: "Teamwork", color: "bg-green-200 text-green-800" },
+      { name: "Productivity", color: "bg-blue-200 text-blue-800" },
+    ],
+    siteLink: "https://trello.com",
+  },
+];
