@@ -1,8 +1,15 @@
 import React from "react";
+import { motion } from "framer-motion";
+
+
 
 function InfoCard({ title, description, tags, siteLink }) {
   return (
-    <div className="bg-white rounded-lg p-3 shadow-md flex flex-col gap-2 h-[260px] ">
+    <motion.div 
+    initial={{opacity:0, x:100}}
+    whileInView={{opacity:1, x:0}}
+    transition={{duration:0.3}}
+    className="bg-white rounded-lg p-3 shadow-md flex flex-col gap-2 h-[260px] ">
       <div className=" rounded-md flex gap-3 p-2">
         <div className="bg-linear-to-br from-indigo-400 to-green-400 via-pink-400 w-[40%] h-[110px] flex justify-center items-center rounded-sm"><img src="/vite.svg" alt="logo" className="w-[70px]"/></div>
         <div className=" w-[60%]">
@@ -40,7 +47,7 @@ function InfoCard({ title, description, tags, siteLink }) {
       >
         Visit Site &rarr;
       </a>
-    </div>
+    </motion.div>
   );
 }
 
