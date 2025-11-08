@@ -6,8 +6,8 @@ import { motion } from "framer-motion";
 function InfoCard({ title, description, tags, siteLink }) {
   return (
     <motion.div 
-    initial={{opacity:0, x:100}}
-    whileInView={{opacity:1, x:0}}
+    initial={{opacity:0, x:100, filter:"blur(5px)"}}
+    whileInView={{opacity:1, x:0, filter:"blur(0px)"}}
     transition={{duration:0.3}}
     className="bg-white rounded-lg p-3 shadow-md flex flex-col gap-2 h-[260px] ">
       <div className=" rounded-md flex gap-3 p-2">
