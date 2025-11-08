@@ -6,9 +6,12 @@ import App from './App.jsx'
 import Dashboard from './components/Dashboard.jsx'
 import All from './components/categories components/All.jsx'
 import DashboardCategoriesDefaultPage from './components/categories components/DashboardCategoriesDefaultPage.jsx'
-import DeveloperTools from './components/categories components/DeveloperTools.jsx'
-import Design from './components/categories components/Design.jsx'
 import Entertainment from './components/categories components/Entertainment.jsx'
+import DevelopmentTools from './components/categories components/DevelopmentTools.jsx'
+import DesignInspiration from './components/categories components/DesignInspiration.jsx'
+import AiTools from './components/categories components/AiTools.jsx'
+import Productivity from './components/categories components/Productivity.jsx'
+import Explore from './pages/Explore.jsx'
 
 const router = createBrowserRouter([
   {
@@ -28,19 +31,30 @@ const router = createBrowserRouter([
         element:<All/>
       },
       {
-        path:"developerTools",
-        element: <DeveloperTools/>
+        path:"developmentTools",
+        element: <DevelopmentTools/>
       },
       {
-        path:"design",
-        element:<Design/>
+        path:"designInspiration",
+        element:<DesignInspiration/>
+      },
+      {
+        path: "ai",
+        element: <AiTools/>
+      },
+      {
+        path:"productivity",
+        element: <Productivity/>
       },
       {
         path:"entertainment",
         element: <Entertainment/>
       }
-
     ]
+  },
+  {
+    path: "explore",
+    element: <Explore/>
   }
 ])
 
