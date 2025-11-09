@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 
 
-function InfoCard({ title, description, tags, siteLink }) {
+function InfoCard({imgUrl, title, description, tags, siteLink }) {
   return (
     <motion.div 
     initial={{opacity:0, x:100, filter:"blur(5px)"}}
@@ -11,7 +11,7 @@ function InfoCard({ title, description, tags, siteLink }) {
     transition={{duration:0.3}}
     className="bg-white rounded-lg p-3 shadow-md flex flex-col gap-2 h-[260px] ">
       <div className=" rounded-md flex gap-3 p-2">
-        <div className="bg-linear-to-br from-indigo-400 to-green-400 via-pink-400 w-[40%] h-[110px] flex justify-center items-center rounded-sm"><img src="/vite.svg" alt="logo" className="w-[70px]"/></div>
+        <div className="bg-linear-to-br from-indigo-400 to-green-400 via-pink-400 w-[40%] h-[110px] flex justify-center items-center rounded-sm"><img src={imgUrl} alt="logo" className="w-[70px]"/></div>
         <div className=" w-[60%]">
           {/* Title */}
           <h2 className="text-lg font-semibold text-gray-900">{title}</h2>

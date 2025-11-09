@@ -28,6 +28,7 @@ function Dashboard() {
 
   return (
     <>
+    
       <div className="bg-[#101922] w-full h-full text-white flex rounded-2xl">
         {/* Left div for navigation */}
         <div className="w-[20%] h-full border-r border-white/30">
@@ -88,11 +89,11 @@ function Dashboard() {
         </div>
 
         {/* Content div */}
-        <div className="w-[80%] h-full pt-10 px-10 flex flex-col justify-between">
+        <div className="w-[80%] pt-10 px-10 flex flex-col  justify-between">
           {/* Top div */}
-          <div className="h-[35%] flex flex-col gap-5">
+          <div className=" flex flex-col gap-5">
             {/* Title and Add button */}
-            <div className="flex justify-between items-end">
+            <div className="flex justify-between items-end ">
               <div>
                 <h1 className="text-5xl">Your Central Hub For Essential Tools</h1>
                 <p className="text-xl mt-3">
@@ -122,7 +123,7 @@ function Dashboard() {
             </div>
 
             {/* Top keyword buttons */}
-            <div className="flex justify-start items-center gap-3">
+            <div className="flex justify-start items-center gap-2.5">
               {topLinks.map((link) => (
                 <Link key={link.path} to={link.path}>
                   <Button
@@ -143,7 +144,7 @@ function Dashboard() {
           </div>
 
           {/* Bottom content */}
-          <div className="h-[65%]">
+          <div className="h-[60vh]">
             <Outlet />
           </div>
         </div>

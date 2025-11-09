@@ -13,6 +13,7 @@ export const cardInfo = [
     ],
     siteLink: "https://codepen.io",
   },
+  
   {
     id: 1,
     img: "/gsap.png",

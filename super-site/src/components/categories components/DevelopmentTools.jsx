@@ -12,6 +12,7 @@ function DevelopmentTools() {
               .map((item, index) =>(
                 <InfoCard
                   key={index}
+                  imgUrl={item.img}
                   title={item.title}
                   description={item.description}
                   tags={item.tags}
